@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+.flex {
+    display: flex;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 1160px;
+    max-width: 100%;
+    padding: 0 3.5rem;
+    margin: 0 auto;
+}
+header{
+    background: #F6F8F9;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+nav{
+    margin-left: auto;
+}
+.logo{
+   color:#FA6980 ; 
+   padding: 0.95rem 1.5rem;
+   font-size: 15px;
+    font-weight: 500;
+}
+.nav{
+    list-style-type: none;
+    align-items: center;
+}
+.nav-items{
+    align-items: center;
+}
+nav a {
+    font-size: 15px;
+    font-weight: 500;
+    color:#FA6980;
+    display: block;
+    margin: 0 1.5rem;
+    transition: all 0.3s ease-in-out;
+   
+}
+nav img{
+    width: 30px;
+}
+nav a:hover {
+    color: black;
+}
+.world-news{
+    width: 68%;
+    position: relative;
+}
+.world-news img{
+    width: 100%;
+}
+.world-news-places{
+ position: absolute;
+ bottom: 25%;
+ padding: 0 3rem;
+}
+.world-news-places h2{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2.5rem;
+    color: #fff;
+    font-size: 24px;
+}
+.world-news-places h3{
+    padding-top: 2.5rem;
+    color: #fff;
+    font-size: 24px;
+}
+.world-news-places p{
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+    color: #fff;
+    font-size: 16px;
+}
+.world-news-places input{
+    padding: 0.6rem;
+    background-color: #FA6980;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+}
+.more-news{
+    padding: 7rem;
+}
+.more-news h2{
+    font-size: 24px;
+    color: #000000;
+    border-bottom: 2px solid #EBEDED;
+    padding-bottom: 2.5rem;
+}
+.new-travel{
+    padding: 2.5rem 0;
+}
+.new-travel h5 , .technology h5, .card h5, .happening-small-title h5{
+    padding: 1rem 0;
+    font-size: 16px;
+}
+.new-travel h4, .technology h4{
+    color: #FA6980;
+    font-size: 16px;
+}
+.new-travel p, .technology p , .card p{
+    color: #A6ADB4;
+    font-size: 13px;
+}
+.trending{
+    background-color: #F6F8F9;
+    padding: 2.5rem 0;
+}
+.trending h2{
+    padding-bottom: 2rem;
+    font-size: 24px;
+}
+.card figcaption{
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6px;
+}
+.card:nth-child(2){
+    margin: 0 2.5rem;
+}
+.happening{
+    padding: 3rem 0;
+}
+.article-img{
+    position: relative;
+}
+.large-article-text{
+    position: absolute;
+    width: 100%;
+    bottom: 8.5rem;
+    color: white;
+    padding: 0 3rem;
+}
+.large-article-travel{
+    position: absolute;
+    width: 100%;
+    bottom: 6rem;
+    color: white;
+    padding: 0 3rem;
+}
+.city-text{
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.travel-text{
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.city{
+    padding-bottom: 2.5rem ;
+}
+.happening-small-title{
+    padding-left: 2.5rem;
+}
+.happening-small-title figure:nth-child(2){
+    padding: 3.5rem 0;
+}
+.time{
+    display: flex;
+}
+.time img{
+    padding-right: 1rem;
+}
+.time p {
+  color:#A6ADB4;
+  font-size: 13px;  
+}
+footer{
+    background-color: #A6ADB4;
+    padding: 2rem;
+    padding: 3.5rem 0 2rem 0;
+}
+.footer-list{
+    list-style-type: none;
+    font-size: 13px;
+}
+.footer-list li a{
+    color: #CBD0D3;
+    transition: all 0.2s ease-in;
+}
+.footer-logo{
+font-size: 13px;
+color: #FFFFFF;
+font-weight: 500;
+}
+.logo-content{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.inputbox{
+    background-color: #CBD0D3;
+    border: none;
+    background-image: url(/assets/image/send.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+.input-text{
+    font-size: 11px;
+    color: #CBD0D3;
+    padding: 1rem 0;
+}
+.footer-content{
+    justify-content: space-evenly;
+}
+.footer-list li a:hover{
+    color: black;
+}
+.hamburger {
+    display: none;
+  }
+  .checkbox{
+      display: none;
+  }
+@media (max-width: 991px) {
+    .section-world, .happening-now{
+        flex-direction: column;
+    }
+    .world-news{
+        width: 100%;
+    }
+    .happening-large-title img{
+        width: 100%;
+    }
+   .elephant, .nickson, .unsplash {
+      width: 100%;
+   }
+   .happening-small-title h5 {
+       text-align: center;
+   }
+   .time{
+       justify-content: center;
+   }
+   .happening-large-title{
+       margin-bottom: 2.5rem;
+   }
+}
+@media (max-width: 767px) {
+
+    #menu{
+        position: relative;
+    }
+      .hamburger {
+      display: block;
+      width:35px;
+      height: 17px;
+    }
+    .hamburger span{
+        display: block;
+        height: 4px;
+        width: 35px;
+        background-color: #000;
+        margin: 4px 0;
+    }
+    .checkbox{
+        display: block;
+        width: 45px;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 1px;
+        opacity: 0;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: calc(100% - 40px);
+        left: -100%;
+        bottom: 0;
+        flex-direction: column;
+        background-color: #ffffff;
+        transition: 0.4s left ease-in-out;
+        justify-content: space-evenly;
+        
+    }
+    .nav{
+        align-items: initial;
+    }
+    .checkbox:checked + ul {
+        left: 0;
+    }
+.trending-cards{
+    flex-direction: column;
+    text-align: center;
+}
+.card .img-responsive{
+    width: 100%;
+}
+.trending h2{
+    text-align: center;
+}
+.card:nth-child(2){
+    margin: 2.5rem 0;
+}
+
+
+}
+@media (max-width: 575px) {
+.world-news-places h2{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.world-news-places h3{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+.world-news-places p{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+.world-news-places input{
+    padding: 0.3rem;
+}
+.more-news h2{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.new-travel{
+    padding: 1.5rem 0;
+}
+.new-travel h4, .technology h4{
+    font-size: 1.3rem;
+}
+.new-travel h5, .technology h5, .card h5, .happening-small-title h5{
+    font-size: 1.3rem;
+}
+.new-travel p, .technology p, .card p{
+    font-size: 1rem;
+}
+.trending h2{
+    font-size: 1.5rem;
+}
+.large-article-text p, .large-article-travel p{
+    font-size: 1.2rem;
+}
+.city-text, .travel-text{
+    font-size: 1.5rem;
+}
+.more-news{
+    padding: 0;
+    text-align: center;
+}
+.technology{
+    margin-bottom: 1.5rem;
+}
+.happening-small-title figure:nth-child(2) {
+    padding: 1.5rem 0;
+}
+.happening{
+    padding: 1.5rem 0;
+}
+.trending h2{
+    padding-bottom: 1.5rem;
+}
+.footer-content{
+    flex-direction: column;
+}
+.logo-content{
+    width: 100%;
+    justify-content: space-between;
+}
+.input{
+    margin-top: 1rem;
+}
+}
+@media (max-width: 360px) {
+  .world-news-places{
+      bottom: 5%;
+  }
+  .large-article-text{
+      bottom: 3.5rem;
+  }
+  .city-text, .travel-text{
+      top: 1rem;
+      left: 1rem;
+  }
+  .large-article-travel{
+      bottom: 1rem;
+  }
+  .trending h2{
+      padding-bottom: 0.5rem;
+  }
+  .travel-text, .city-text{
+      font-size: 1.2rem;
+  }
+  .large-article-text h2, .large-article-travel h2{
+      font-size: 1.4rem;
+  }
+  .world-news-places h2 {
+      padding-bottom: 1rem;
+  }
+  .world-news-places h3{
+      padding-top: 1rem;
+  }
+  .world-news-places p{
+      padding-bottom: 1rem;
+  }
+  .logo-content{
+      flex-direction: column;
+  }
+}
