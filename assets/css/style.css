@@ -225,9 +225,6 @@ font-weight: 500;
 .inputbox{
     background-color: #CBD0D3;
     border: none;
-    background-image: url(../image/send.svg);
-    background-repeat: no-repeat;
-    background-position: right;
     padding: 0.5rem;
     border-radius: 2px;
 }
@@ -248,6 +245,22 @@ font-weight: 500;
   .checkbox{
       display: none;
   }
+  .button{
+    background-image: url(../image/send.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+  }
+  .input{
+      position: relative;
+  }
+  .button{
+      position: absolute;
+      left: 16rem;
+    top: 0.5rem;
+}
+  
 @media (max-width: 991px) {
     .section-world, .happening-now{
         flex-direction: column;
