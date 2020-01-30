@@ -225,7 +225,7 @@ font-weight: 500;
 .inputbox{
     background-color: #CBD0D3;
     border: none;
-    background-image: url(/assets/image/send.svg);
+    background-image: url(../image/send.svg);
     background-repeat: no-repeat;
     background-position: right;
     padding: 0.5rem;
