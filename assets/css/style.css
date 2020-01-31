@@ -249,7 +249,7 @@ font-weight: 500;
     background-image: url(../image/send.svg);
     background-repeat: no-repeat;
     width: 20px;
-    background-position: center;
+    background-position: left;
     height: 25px;
     border: none;
     background-color: #CBD0D3;
@@ -418,39 +418,58 @@ font-weight: 500;
     margin-top: 1rem;
 }
 }
+@media (max-width: 425px) {
+    .city-text{
+        top: 2rem;
+        left: 2rem;
+    }
+    .travel-text{
+        top: 2rem;
+        left: 2rem;
+    }
+    .large-article-text{
+        bottom: 4.5rem;
+    }
+    .large-article-travel{
+        bottom: 2rem;
+    }
+    .world-news-places{
+        bottom: 15%;
+    }
+}
 @media (max-width: 360px) {
-  .world-news-places{
+  .world-news-places {
       bottom: 5%;
   }
-  .large-article-text{
+  .large-article-text {
       bottom: 3rem;
   }
-  .city-text, .travel-text{
+  .city-text, .travel-text {
       top: 1rem;
       left: 1rem;
   }
-  .large-article-travel{
+  .large-article-travel {
       bottom: 0.5rem;
   }
-  .trending h2{
+  .trending h2 {
       padding-bottom: 0.5rem;
   }
-  .travel-text, .city-text{
+  .travel-text, .city-text {
       font-size: 1.2rem;
   }
-  .large-article-text h2, .large-article-travel h2{
+  .large-article-text h2, .large-article-travel h2 {
       font-size: 1.4rem;
   }
   .world-news-places h2 {
       padding-bottom: 1rem;
   }
-  .world-news-places h3{
+  .world-news-places h3 {
       padding-top: 1rem;
   }
-  .world-news-places p{
+  .world-news-places p {
       padding-bottom: 1rem;
   }
-  .logo-content{
+  .logo-content {
       flex-direction: column;
   }
-}
+  }
