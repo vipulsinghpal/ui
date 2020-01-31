@@ -376,12 +376,6 @@ font-weight: 500;
 .new-travel h4, .technology h4{
     font-size: 1.3rem;
 }
-.new-travel h5, .technology h5, .card h5, .happening-small-title h5{
-    font-size: 1.3rem;
-}
-.new-travel p, .technology p, .card p{
-    font-size: 1rem;
-}
 .travel-text, .city-text{
     left: 3rem;
 }
