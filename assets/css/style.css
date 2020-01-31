@@ -68,6 +68,10 @@ nav img{
 nav a:hover {
     color: black;
 }
+.user-id{
+    width: 30px;
+    margin-right: 1.5rem;
+}
 .world-news{
     width: 68%;
     position: relative;
