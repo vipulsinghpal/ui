@@ -249,16 +249,18 @@ font-weight: 500;
     background-image: url(../image/send.svg);
     background-repeat: no-repeat;
     width: 20px;
-    background-color: transparent;
+    background-position: center;
+    height: 25px;
     border: none;
+    background-color: #CBD0D3;
   }
   .input{
       position: relative;
   }
   .button{
       position: absolute;
-      left: 16rem;
-    top: 0.5rem;
+      left: 17.8rem;
+    
 }
   
 @media (max-width: 991px) {
@@ -288,6 +290,9 @@ font-weight: 500;
 
     #menu{
         position: relative;
+    }
+    .nav li{
+        padding: 1.5rem 0;
     }
       .hamburger {
       display: block;
@@ -319,7 +324,6 @@ font-weight: 500;
         flex-direction: column;
         background-color: #ffffff;
         transition: 0.4s left ease-in-out;
-        justify-content: space-evenly;
         
     }
     .nav{
