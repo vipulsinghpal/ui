@@ -117,7 +117,7 @@ nav a:hover {
     padding: 2.5rem 0;
 }
 .new-travel h5 , .technology h5, .card h5, .happening-small-title h5{
-    padding: 1rem 0;
+    padding-top: 1rem;
     font-size: 16px;
 }
 .new-travel h4, .technology h4{
@@ -138,7 +138,7 @@ nav a:hover {
 }
 .card figcaption{
     background-color: #fff;
-    padding: 3rem;
+    padding: 2.5rem;
     border-radius: 6px;
 }
 .card:nth-child(2){
@@ -343,7 +343,7 @@ font-weight: 500;
 .card .img-responsive{
     width: 100%;
 }
-.trending h2{
+.now{
     text-align: center;
 }
 .card:nth-child(2){
@@ -382,6 +382,9 @@ font-weight: 500;
 .new-travel p, .technology p, .card p{
     font-size: 1rem;
 }
+.travel-text, .city-text{
+    left: 3rem;
+}
 .trending h2{
     font-size: 1.5rem;
 }
@@ -397,9 +400,6 @@ font-weight: 500;
 }
 .technology{
     margin-bottom: 1.5rem;
-}
-.happening-small-title figure:nth-child(2) {
-    padding: 1.5rem 0;
 }
 .happening{
     padding: 1.5rem 0;
@@ -418,7 +418,7 @@ font-weight: 500;
     margin-top: 1rem;
 }
 }
-@media (max-width: 425px) {
+@media (max-width: 475px) {
     .city-text{
         top: 2rem;
         left: 2rem;
