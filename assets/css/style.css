@@ -228,7 +228,7 @@ font-weight: 500;
     padding: 0.5rem;
     border-radius: 1px;
     height: 3rem;
-    width: 100%;
+    width: 90%;
 }
 .input-text{
     font-size: 11px;
@@ -250,8 +250,8 @@ font-weight: 500;
   .button{
     background-image: url(../image/send.svg);
     background-repeat: no-repeat;
-    width: 20px;
-    background-position: left;
+    width: 40px;
+    background-position: center;
     height: 30px;
     border: none;
     background-color: #CBD0D3;
