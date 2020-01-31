@@ -345,7 +345,8 @@ font-weight: 500;
 .card:nth-child(2){
     margin: 2.5rem 0;
 }
-
+.happening-small-title {
+    padding-left: 0;
 
 }
 @media (max-width: 575px) {
