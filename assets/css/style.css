@@ -117,7 +117,7 @@ nav a:hover {
     padding: 2.5rem 0;
 }
 .new-travel h5 , .technology h5, .card h5, .happening-small-title h5{
-    padding-top: 1rem;
+    padding: 1rem 0;
     font-size: 16px;
 }
 .new-travel h4, .technology h4{
@@ -227,6 +227,7 @@ font-weight: 500;
     border: none;
     padding: 0.5rem;
     border-radius: 2px;
+    width: 100%;
 }
 .input-text{
     font-size: 11px;
@@ -259,7 +260,7 @@ font-weight: 500;
   }
   .button{
       position: absolute;
-      left: 17.8rem;
+
     
 }
   
