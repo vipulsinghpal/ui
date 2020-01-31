@@ -153,14 +153,14 @@ nav a:hover {
 .large-article-text{
     position: absolute;
     width: 100%;
-    bottom: 8.5rem;
+    bottom: 7.5rem;
     color: white;
     padding: 0 3rem;
 }
 .large-article-travel{
     position: absolute;
     width: 100%;
-    bottom: 6rem;
+    bottom: 5rem;
     color: white;
     padding: 0 3rem;
 }
@@ -421,14 +421,14 @@ font-weight: 500;
       bottom: 5%;
   }
   .large-article-text{
-      bottom: 3.5rem;
+      bottom: 3rem;
   }
   .city-text, .travel-text{
       top: 1rem;
       left: 1rem;
   }
   .large-article-travel{
-      bottom: 1rem;
+      bottom: 0.5rem;
   }
   .trending h2{
       padding-bottom: 0.5rem;
